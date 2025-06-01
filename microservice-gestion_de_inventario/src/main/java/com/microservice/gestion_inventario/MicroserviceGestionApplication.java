@@ -1,4 +1,4 @@
-package com.microservice.gestion_de_inventario;
+package com.microservice.gestion_inventario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,5 +13,4 @@ public class GestionDeInventarioApplication {
     public static void main(String[] args) {
         SpringApplication.run(GestionDeInventarioApplication.class, args);
     }
-
 }

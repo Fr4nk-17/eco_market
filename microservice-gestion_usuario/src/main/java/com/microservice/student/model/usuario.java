@@ -25,8 +25,9 @@ public class Usuario {
 
     private String email;
 
-    @Column(name = "curso_id")
-    private Long cursoId; // Si usas este campo para buscar en otro microservicio, puedes mantenerlo o cambiar nombre según convenga
+    @Column(name = "unidad_id")
+    private Long unidadId;
+    // Si usas este campo para buscar en otro microservicio, puedes mantenerlo o cambiar nombre según convenga
 
 }
 
